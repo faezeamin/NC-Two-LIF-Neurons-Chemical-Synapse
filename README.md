@@ -11,7 +11,7 @@ membrane potential of resting state, and &tau; is the time constant of neuron.
 I<sub>syn</sub> is accumulative synaptic inputs 
 arrived from all the pre-synaptic neurons to the given post-synaptic one, which is calculated through
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{syn,j}(t)=\sum_{i}g_{ij}*S_{syn,ij}(t)(v(t)-E_{syn,ij})}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{syn,j}(t)=\sum_{i}g_{ij}S_{syn,ij}(t)(v(t)-E_{syn,ij})}" />
 
 where i is associated index of pre synaptic neurons, v is the postsynaptic potential, and E<sub>syn</sub> is the synaptic 
 reversal potential. Whether a synapse is 
